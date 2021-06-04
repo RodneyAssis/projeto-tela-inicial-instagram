@@ -88,10 +88,16 @@ body {
     padding: 1.3rem;
 }
 
+.usuario ::placeholder {  /*Altera todos placeholders dentro da classe .usuario*/
+    font-size: 12px;
+}
+
 .username {
     display: flex;
-    padding: 7px 65px;
-    padding-left: 0;
+    width: 240px;
+    height: 30px;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
     border: 1px solid lightgrey;
     border-radius: 1px;
     background-color: #e8f0fe;
