@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,35 +11,42 @@
         <div class="instagram-phone">
             <img src="./IMG-Instagram/Instagram-phone.png" alt="imagem celular">
         </div>
+
         <div class="instagram-continue">
             <div class="group">
-                <p href="" class="instagram-logo"><img src="./IMG-Instagram/Instagram-Logo.png" 
-                    alt="logo-instagram" max-style="100%"></p>
-                <div class="usuario">
+                <h1 href="" class="instagram-logo"><img src="./IMG-Instagram/Instagram-Logo.png" 
+                    alt="Instagram" max-style="100%"></h1>
+                <!--Area de Login-->
+                <form method="GET" class="usuario">
                     <label for="username">
-                    <span class="text-username">Username</span>
-                    <input aria-required="true" name="username" type="text" class="username">
+                    <span class="text-username">Usuário</span>
+                    <input placeholder="Email, Telefone" aria-required="true" name="username" type="text" class="username">
                     </label>
                     <label for="password">
-                    <span class="text-username">Password</span>
-                    <input aria-label="senha?" aria-required="true" 
+                    <span class="text-username">Senha</span>
+                    <input placeholder="Digite sua senha" aria-label="senha?" aria-required="true" 
                      name="password" type="password" class="username">
                     </label>
-                </div>
+                </form>
+                <!--Parte de Baixo da Tela de login-->
                 <a href="#" class="instagram-login">Entrar</a>
-                <a href="#" class="botao-facebook"><span class="facebook-button">
+                <a class="botao-facebook"><a href="#" class="facebook-button">
                     <img src="./IMG-Instagram/facebook-logo.png" alt=""> Entrar com o Facebook
-                </span></a>
+                </a>
+                <!--Esqueceu a senha text-->
                 <a href="#" class="instagram-lost-password">Esqueceu a senha?</a>
             </div>
+            <!--Area de Cadastro-->
             <div class="group">
                 <p class="cadastrar">
-                    Não tem uma conta? 
-                    <span class="link-blue">Cadastre-se</span>
+                    <span>Não tem uma conta?</span> 
+                    <a href="#">Cadastre-se</a>
                 </p>
             </div>
+
             <div class="open-to-app">
                 <p class="open-app">Obtenha o aplicativo.</p>
+                
                 <div class="download">
                     <a href="#" class="app-download"></a>
                     <a href="#" class="app-download"></a>
